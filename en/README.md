@@ -1,4 +1,4 @@
-# Deliverables self-checklist for programmers
+# Programmers self checklist
 
 The deliverables self-checklist for programmers is a checklist that enables developers themselves to check for coding protocol violations and simple coding errors in system development using Java. The published document is a sample for cases in which [Nablarch](https://nablarch.github.io/docs/LATEST/doc/en/index.html) is used for the framework. 
 
