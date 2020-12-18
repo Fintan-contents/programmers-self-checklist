@@ -1,6 +1,6 @@
 # Programmers self checklist
 
-The deliverables self-checklist for programmers is a checklist that enables developers themselves to check for coding protocol violations and simple coding errors in system development using Java. The published document is a sample for cases in which [Nablarch](https://nablarch.github.io/docs/LATEST/doc/en/index.html) is used for the framework. 
+The deliverables self-checklist for programmers is a checklist that enables developers themselves to check for coding conventions violations and simple coding errors in system development using Java. The published document is a sample for cases in which [Nablarch](https://nablarch.github.io/docs/LATEST/doc/en/index.html) is used for the framework. 
 
 In large-scale system development projects, many developers with varying skills and experience work together, and this gap in skills and experience tends to result in a significant variance in quality. Deliverables from developers who are not sufficiently skilled or experienced create a significant amount of work for reviewers, so reviewers will need to point out and correct things outside of the checks reviewers want to focus on, which may lead to quality degradation. 
 
@@ -14,13 +14,13 @@ While this checklist presumes that Nablarch is used, only around 30% of the chec
 
     ＜ 	Examples of customization＞
 
-    　　Example 1 : Customizing points that differ from the coding protocol defined for the project
+    　　Example 1 : Customizing points that differ from the coding conventions defined for the project
 
     　　Example 2 : Omitting points that can be checked with the static checking tool used for the project instead
 
     　　Example 3 : Customizing the points that are dependent on Nablarch when a different framework is used
 
-    　　Example 4 : If the developers are skilled in Java and development standards and coding protocol have been shared but many of the developers do not have much experience with using Nablarch, We used only the points that are dependent on Nablarch.
+    　　Example 4 : If the developers are skilled in Java and development standards and coding conventions have been shared but many of the developers do not have much experience with using Nablarch, We used only the points that are dependent on Nablarch.
 
 - Define how to use the checklist, taking into account the skills and experience of the developer and the development process, and share and use it in the project. Be aware that if excessive checking work is assigned to developers when deciding on how to use the checklist, the checks will be treated like a formality. 
 
@@ -28,7 +28,7 @@ While this checklist presumes that Nablarch is used, only around 30% of the chec
       
       　　Example 1: Instructing developers that they must perform a self-check with this checklist before requesting a review (including reviews at the 30% point)
       
-      　　Example 2: Dividing check points into those to be used when completing coding and those to be used when completing unit testing and using each check point at the right time.
+      　　Example 2: Dividing check points into those to be used when completing coding and those to be used when completing unit testing. Using each check point at the right time.
       
       　　Example 3: Exempting some developers from this check according to the reviewer’s assessment of their skills, as it is not necessary for all developers to check all points.
 
@@ -38,9 +38,9 @@ While this checklist presumes that Nablarch is used, only around 30% of the chec
 
   　Using this checklist as one of the check points in the checklist of completion conditions for PG and UT work prevents omissions in PG and UT work. 
 
-- Coding protocols
+- Coding conventions
 
-  　Points requiring particular attention in the [Java coding protocol](https://github.com/nablarch-development-standards/nablarch-style-guide/blob/master/en/java/java-style-guide.md) and other coding protocols are defined in this checklist to enable efficient development.
+  　Points requiring particular attention in the [Java coding conventions](https://github.com/nablarch-development-standards/nablarch-style-guide/blob/master/en/java/java-style-guide.md) and other coding conventions are defined in this checklist to enable efficient development.
 
 ## Accessing this document
 
